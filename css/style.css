@@ -77,7 +77,6 @@ color: var(--light-text);
  /*----Header-----*/
 
 .header{
- 
  box-sizing: border-box;
  border: 1px solid var(--work-bg-color);
  background-color: var(--primari-header-color); 
@@ -110,7 +109,7 @@ color: var(--light-text);
   margin-left: 50px;
 }
 .header-nav .link{
-  display: block;
+ display: block;
   
  font-weight: 500;
  font-size: 14px;
@@ -139,30 +138,20 @@ color: var(--light-text);
 }
 
 
-.tel{
-  
-  content:"";
-  display: block;
-  background-size: contain;
-  background-image: url("../img/icons.svg#icon-smartphone");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 
 .header-mail.link:hover,
 .header-mail.link:focus{
   color: var(--accent-color)
-
 }
+
 .aut-nav.list{
  display: flex;
  margin-left: auto;
 }
 .aut-nav.link{
   display: block;
-
 }
+
 .aut-nav.link+.link{
   margin-left: 50px;
 }
@@ -528,13 +517,13 @@ color:var(--another-text);
  }
 
 .section-footer{
-  display: flex;
-  align-items: center;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  width: 1200px;
-  margin: 0 auto;
-  
+
+ padding-top: 60px;
+ padding-bottom: 60px;
+  }
+
+.container.footer-nav{
+ display: flex;
 }
 
 .accent-footer {
@@ -543,7 +532,10 @@ color:var(--another-text);
 
 .footer-items.list {
  font-style: normal;
- margin-top: 12px;
+ margin-top: 9px;
+}
+.footer-main{
+  margin-right: 70px;
 }
 .footer-items-addres.list{
   font-style: normal;
@@ -562,10 +554,10 @@ color:var(--another-text);
   letter-spacing: 0.03em;
   color:rgba(255, 255, 255, 0.6);
 }
+
 .footer-address.link{
-  width: 231px;
-  margin-top: 28px;
   margin-right: 70px;
+  margin-top: 20px;
 }
 .footer-item.link:hover,
 .footer-item.link:focus{
