@@ -469,8 +469,8 @@ color:var(--another-text);
     line-height: 1.62;
     letter-spacing: 0.03em;
     background: var(--comand-header-color);
-    box-shadow: 0 3px 1px rgba(0,0, 0, 0.1) 0 1px 2px 
-    rgba(0, 0, 0, 0.8) 0 2px 2px rgba(0,0, 0, 0.12);
+    box-shadow: 0 3px 1px rgba(0,0, 0, 0.1), 0 1px 2px 
+    rgba(0, 0, 0, 0.8), 0 2px 2px rgba(0,0, 0, 0.12);
     color: var(--light-text);
     }
  
@@ -496,7 +496,6 @@ color:var(--another-text);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.6), 1px 4px 6px rgba(0, 0, 0, 0.16);
   }
  
-
 .work-elemet {
   border: 1px solid var(--work-bg-color);
   padding: 20px 24px;
