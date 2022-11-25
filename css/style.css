@@ -156,7 +156,7 @@ color: var(--light-text);
   margin-left: 50px;
 }
 .aut-nav-icons{
-  
+
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -313,7 +313,7 @@ padding-top: var(--card-set-gap);
 background-color: var(--comand-header-color);
 }
 
-.comand-list.list{
+.comand-list.list {
   display: flex;
 }
 
