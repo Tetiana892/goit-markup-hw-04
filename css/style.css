@@ -156,10 +156,12 @@ color: var(--light-text);
   margin-left: 50px;
 }
 .aut-nav-icons{
+  
   display: inline-flex;
   justify-content: center;
   align-items: center;
   margin-right: 10px;
+
   fill: var(--second-text);
   fill: currentColor;
 }
