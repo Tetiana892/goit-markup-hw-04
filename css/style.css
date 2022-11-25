@@ -137,8 +137,11 @@ color: var(--light-text);
   color: var(--second-text);
 }
 .header-mail.link:hover,
-.header-mail.link:focus{
+.aut-nav-icons:hover,
+.header-mail.link:focus,
+.aut-nav-icons:focus{
   color: var(--accent-color);
+  fill: currentColor;
 }
 
 .aut-nav.list{
@@ -157,10 +160,6 @@ color: var(--light-text);
   align-items: center;
   margin-right: 10px;
   fill: var(--second-text);
-}
-.aut-nav-icons:hover,
-.aut-nav-icons:focus{
-  fill: var(--accent-color);
 }
 
 /*----Hero-----*/
@@ -382,7 +381,8 @@ margin-right: 30px;
  .comand-soc-icons {
    fill: currentColor;
  }
-.comand-soc-link:hover{
+.comand-soc-link:hover,
+.comand-soc-link:focus{
   color: var(--another-text);
   background-color: var(--accent-color);
   }
@@ -437,9 +437,11 @@ margin-right: 30px;
   fill: currentColor;
 }
 .clients-link:hover,
-.clients-link:focus{
-  color: var(--accent-color);
-
+.clients-items:hover,
+.clients-link:focus,
+.clients-items:focus{
+color: var(--accent-color);
+ border-color: var(--accent-color);
   }
 
 /*----Works button-----*/
@@ -480,6 +482,7 @@ box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.8), 0 2px 2p
     letter-spacing: 0.03em;
     background: var(--comand-header-color);
     color: var(--light-text);
+    border-radius: 4px;
     }
  
     
@@ -500,16 +503,19 @@ box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.8), 0 2px 2p
   margin-left: 30px;
   margin-top: 30px;
 
+  border: 1px solid var(--work-bg-color);
   background-color: var(--primari-header-color);
   }
 
 .work-items:hover,
-.work-items:focus{
+.work-links.link:hover,
+.work-items:focus,
+.work-links.link:focus{
+border: 1px solid var(--work-bg-color);
 box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.6), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.work-elemet {
-  border: 1px solid var(--work-bg-color);
+.work-elemet { 
   padding: 20px 24px;
   max-width: 370px;
 }
@@ -629,6 +635,7 @@ text-transform: uppercase;
   fill: currentColor;
 }
 
-.footer-soc-link:hover {
+.footer-soc-link:hover,
+ .footer-soc-link:focus{
  background-color: var(--accent-color);
 }
