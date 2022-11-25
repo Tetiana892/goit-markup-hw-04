@@ -155,7 +155,7 @@ color: var(--light-text);
 .aut-nav.link+.link{
   margin-left: 50px;
 }
-.aut-nav-icons{
+.aut-nav-icons {
 
   display: inline-flex;
   justify-content: center;
