@@ -128,6 +128,8 @@ color: var(--light-text);
 }
 
 .header-mail.link{
+  display: flex;
+  align-items: center;
   padding: 32px 0;
 
   font-weight: 500;
@@ -156,14 +158,10 @@ color: var(--light-text);
   margin-left: 50px;
 }
 .aut-nav-icons {
+ margin-right: 10px;
 
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 10px;
-
-  fill: var(--second-text);
-  fill: currentColor;
+ fill: var(--second-text);
+ fill: currentColor;
 }
 
 /*----Hero-----*/
